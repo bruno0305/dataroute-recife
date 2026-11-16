@@ -117,8 +117,8 @@ Dados: Prefeitura do Recife / CTTU, sob a Open Data Commons Open Database Licens
 | Função | Integrante |
 |---|---|
 | F1 · Coordenador do Projeto & Arquiteto de Big Data (Tech Lead) | Paulo César Santos de Vasconcelos |
-| F2 · Engenheiro de Dados I (Coleta e Ingestão, Bronze) | _preencher_ |
-| F3 · Engenheiro de Dados II (Limpeza, ETL e Feature Engineering, Silver) | _preencher_ |
-| F4 · Cientista/Analista de Dados (EDA e Estatística, Gold) | _preencher_ |
-| F5 · Especialista em Visualização de Dados & Storytelling | _preencher_ |
-| F6 · Redator Técnico, Auditor ABNT & PM | _preencher_ |
+| F2 · Engenheiro de Dados I (Coleta e Ingestão, Bronze) | Bruno Vinicius |
+| F3 · Engenheiro de Dados II (Limpeza, ETL e Feature Engineering, Silver) | Wagner |
+| F4 · Cientista/Analista de Dados (EDA e Estatística, Gold) | Lucy |
+| F5 · Especialista em Visualização de Dados & Storytelling | Thomas |
+| F6 · Redator Técnico, Auditor ABNT & PM | Douglas |
