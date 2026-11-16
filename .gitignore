@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Sistema / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dados: arquivos acima de 100 MB não sobem para o GitHub.
+# Bases grandes (ex.: velocidade/fotossensores) entram aqui e são baixadas pelo
+# notebook 01 (F2). Os CSVs de sinistros (pequenos) DEVEM ser versionados.
+data/raw/velocidade_*.csv
+*.parquet
+*.zip
+
+# Segredos
+.env
+
+# Silver é regenerada pelo pipeline (python -m src.pipeline); Gold e métricas são versionadas
+data/processed/sinistros_silver.csv

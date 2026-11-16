@@ -1,0 +1,144 @@
+{
+  "executado_em": "2026-11-15T22:07:01",
+  "tempos_s": {
+    "bronze": 0.62,
+    "silver": 3.02,
+    "gold": 0.12
+  },
+  "bronze": {
+    "arquivos": [
+      "sinistros_2015.csv",
+      "sinistros_2016.csv",
+      "sinistros_2017.csv",
+      "sinistros_2018.csv",
+      "sinistros_2019.csv",
+      "sinistros_2020.csv",
+      "sinistros_2021.csv",
+      "sinistros_2022.csv",
+      "sinistros_2023.csv",
+      "sinistros_2024.csv"
+    ],
+    "linhas_brutas": 72255,
+    "volumetria": [
+      {
+        "arquivo": "sinistros_2015.csv",
+        "linhas": 7273,
+        "colunas": 20,
+        "memoria_mb": 7.1,
+        "encoding": "utf-8",
+        "separador": ";",
+        "tamanho_disco_mb": 1.4
+      },
+      {
+        "arquivo": "sinistros_2016.csv",
+        "linhas": 11263,
+        "colunas": 26,
+        "memoria_mb": 14.52,
+        "encoding": "utf-8",
+        "separador": ";",
+        "tamanho_disco_mb": 3.04
+      },
+      {
+        "arquivo": "sinistros_2017.csv",
+        "linhas": 11758,
+        "colunas": 25,
+        "memoria_mb": 14.37,
+        "encoding": "utf-8",
+        "separador": ";",
+        "tamanho_disco_mb": 2.96
+      },
+      {
+        "arquivo": "sinistros_2018.csv",
+        "linhas": 11411,
+        "colunas": 41,
+        "memoria_mb": 20.58,
+        "encoding": "utf-8",
+        "separador": ";",
+        "tamanho_disco_mb": 3.84
+      },
+      {
+        "arquivo": "sinistros_2019.csv",
+        "linhas": 12062,
+        "colunas": 41,
+        "memoria_mb": 23.99,
+        "encoding": "utf-8",
+        "separador": ";",
+        "tamanho_disco_mb": 4.7
+      },
+      {
+        "arquivo": "sinistros_2020.csv",
+        "linhas": 4092,
+        "colunas": 38,
+        "memoria_mb": 7.53,
+        "encoding": "utf-8",
+        "separador": ";",
+        "tamanho_disco_mb": 1.45
+      },
+      {
+        "arquivo": "sinistros_2021.csv",
+        "linhas": 2380,
+        "colunas": 37,
+        "memoria_mb": 4.49,
+        "encoding": "utf-8",
+        "separador": ";",
+        "tamanho_disco_mb": 0.77
+      },
+      {
+        "arquivo": "sinistros_2022.csv",
+        "linhas": 2669,
+        "colunas": 38,
+        "memoria_mb": 5.21,
+        "encoding": "utf-8",
+        "separador": ";",
+        "tamanho_disco_mb": 0.95
+      },
+      {
+        "arquivo": "sinistros_2023.csv",
+        "linhas": 4032,
+        "colunas": 37,
+        "memoria_mb": 6.77,
+        "encoding": "utf-8",
+        "separador": ";",
+        "tamanho_disco_mb": 1.09
+      },
+      {
+        "arquivo": "sinistros_2024.csv",
+        "linhas": 5315,
+        "colunas": 37,
+        "memoria_mb": 8.92,
+        "encoding": "utf-8",
+        "separador": ";",
+        "tamanho_disco_mb": 1.45
+      }
+    ]
+  },
+  "silver": {
+    "linhas_entrada": 72255,
+    "colunas_entrada": 45,
+    "nulos_entrada": 1733304,
+    "bairros_distintos_entrada": 126,
+    "situacao_cancelada_removidas": 11563,
+    "situacao_duplicidade_removidas": 455,
+    "duplicatas_exatas_removidas": 4,
+    "sem_data_valida_removidas": 0,
+    "datas_ano_iso_corrigidas": 32,
+    "datas_fora_do_ano_do_arquivo_removidas": 0,
+    "sem_hora_mantidas": 2442,
+    "nulos_numericos_imputados_zero": 402053,
+    "classificacao_inferida": 28,
+    "classificacao_nao_sinistro_removidas": 8,
+    "vitimasfatais_corrigidas_pela_classificacao": 24,
+    "vitimas_ajustadas_para_1": 212,
+    "linhas_saida": 60225,
+    "colunas_saida": 27,
+    "nulos_saida": 4884,
+    "bairros_distintos_saida": 95
+  },
+  "gold": {
+    "serie_temporal": 329,
+    "top10_bairros": 10,
+    "dia_hora": 7,
+    "modais": 7,
+    "clima_via": 11
+  }
+}
